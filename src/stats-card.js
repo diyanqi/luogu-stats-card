@@ -14,7 +14,7 @@ const {
  */
 async function fetchStats(id, useProxy) {
   //debug 测试请求
-  let reqUrl = `https://www.luogu.com.cn/user/${id}?_contentOnly`;
+  let reqUrl = `https://cn-proxy.oiso.cf/user/${id}?_contentOnly`;
   if (useProxy) {
     reqUrl = `https://a-1c37c2-1300876583.ap-shanghai.service.tcloudbase.com/luogu?id=${id}`;
   }
