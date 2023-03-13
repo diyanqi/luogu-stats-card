@@ -4,7 +4,8 @@
   ],
   "routes": [
     { "src": "/practice", "dest": "/api/index.js" },
-    { "src": "/guzhi", "dest": "/api/guzhi.js" }
+    { "src": "/guzhi", "dest": "/api/guzhi.js" },
+    { "src": "/", "dest": "/api/index.js" }
   ],
   "regions": ["hkg1"]
 }
